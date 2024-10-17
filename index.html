@@ -11,43 +11,44 @@
     <p class="title">calc</p>
     <div class="calc">
         <div class="input">
-            <input readonly>
+            <input id="display" readonly>
         </div>
 
         <div class="keys" >
             <div class="row top one">
-                <div><p>7</p></div>
-                <div><p>8</p></div>
-                <div><p>9</p></div>
-                <div><p>DEL</p></div>
+                <div class="white" onclick="display('7')"><p>7</p></div>
+                <div class="white" onclick="display('8')"><p>8</p></div>
+                <div class="white" onclick="display('9')"><p>9</p></div>
+                <div class="gray" onclick="display('7')"><p>DEL</p></div>
             </div>
 
             <div class="row top two">
-                <div><p>4</p></div>
-                <div><p>5</p></div>
-                <div><p>6</p></div>
-                <div><p>+</p></div>
+                <div class="white" onclick="display('4')"><p>4</p></div>
+                <div class="white" onclick="display('5')"><p>5</p></div>
+                <div class="white" onclick="display('6')"><p>6</p></div>
+                <div class="white" onclick="display('+')"><p>+</p></div>
             </div>
 
             <div class="row top three">
-                <div><p>1</p></div>
-                <div><p>2</p></div>
-                <div><p>3</p></div>
-                <div><p>-</p></div>
+                <div class="white" onclick="display('1')"><p>1</p></div>
+                <div class="white" onclick="display('2')"><p>2</p></div>
+                <div class="white" onclick="display('3')"><p>3</p></div>
+                <div class="white" onclick="display('-')"><p>-</p></div>
             </div>
 
             <div class="row top four">
-                <div><p>.</p></div>
-                <div><p>0</p></div>
-                <div><p>/</p></div>
-                <div><p>x</p></div>
+                <div class="white" onclick="display('.')"><p>.</p></div>
+                <div class="white" onclick="display('0')"><p>0</p></div>
+                <div class="white" onclick="display('/')"><p>/</p></div>
+                <div class="white" onclick="display('x')"><p>x</p></div>
             </div>
 
             <div class="row five">
-                <div><p>RESET</p></div>
-                <div><p>=</p></div>
+                <div class="gray" onclick="display('7')"><p>RESET</p></div>
+                <div class="red" onclick="display('7')"><p>=</p></div>
             </div>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>

@@ -48,6 +48,7 @@ body {
     line-height: 5rem;
     text-align: right;
     color: white;
+    padding: 0.75rem;
 }
 
 .keys {
@@ -73,13 +74,13 @@ body {
 .top div {
     height: 240%;
     width: 20%;
-    background-color: white;
+    /* background-color: white; */
 }
 
 .five div {
     height: 240%;
     width: 43%;
-    background-color: white;
+    /* background-color: white; */
 }
 
 .row div {
@@ -95,6 +96,19 @@ p {
     font-size: 1rem;
     font-weight: 800;
     /* line-height: 2.25rem; */
+}
+
+.gray {
+    background-color: rgb(112, 124, 168);
+}
+
+.white {
+    background-color: white;
+}
+
+.red {
+    background-color: rgb(231, 42, 42);
+    /* opacity: 70%; */
 }
 
 /* .row div {
