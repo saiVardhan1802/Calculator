@@ -11,7 +11,7 @@
     <p class="title">calc</p>
     <div class="calc">
         <div class="input">
-            <input id="display" readonly>
+            <input id="display" placeholder="0" readonly>
         </div>
 
         <div class="keys" >
@@ -19,7 +19,7 @@
                 <div class="white" onclick="display('7')"><p>7</p></div>
                 <div class="white" onclick="display('8')"><p>8</p></div>
                 <div class="white" onclick="display('9')"><p>9</p></div>
-                <div class="gray" onclick="display('7')"><p>DEL</p></div>
+                <div class="gray" onclick="del()"><p>DEL</p></div>
             </div>
 
             <div class="row top two">
@@ -44,8 +44,8 @@
             </div>
 
             <div class="row five">
-                <div class="gray" onclick="display('7')"><p>RESET</p></div>
-                <div class="red" onclick="display('7')"><p>=</p></div>
+                <div class="gray" onclick="clearDisplay()"><p>RESET</p></div>
+                <div class="red" onclick="calculate()"><p>=</p></div>
             </div>
         </div>
     </div>
